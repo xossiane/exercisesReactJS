@@ -1,0 +1,35 @@
+import { Component } from "react";
+
+class AlotOfAnimals extends Component{
+    state = { 
+            animals : [
+            {id: 1,
+            animal: 'dog'},
+            {id: 2,
+            animal: 'cat'},
+            {id: 3,
+            animal: 'chicken'},
+            {id: 4,
+            animal: 'cow'},
+            {id: 5,
+            animal: 'sheep'},
+            {id: 6,
+            animal: 'horse'}]
+    
+
+    }
+    render (){
+        const { animals } = this.state;
+        return (
+            <div>
+                <ul>
+                    <li>{animals}</li>
+                </ul>
+                    {animals.map((animal) => {
+                        return <li> {animals}</li>
+                })}
+            </div>
+        )
+    }
+}
+    

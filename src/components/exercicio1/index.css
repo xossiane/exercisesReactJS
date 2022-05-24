@@ -1,0 +1,13 @@
+.squareBlock {
+    margin: auto;
+    background-color: #FEC800;
+    height: 511px;
+    width: 504px;
+}
+.squareBlock__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 442px;
+    font-size: 90%;
+}

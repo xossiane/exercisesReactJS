@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
-import exercises from '@/exercicios'
 import './index.css'
+import exercises from '/src/exercicios'
+
+
 function Menu() {
 	return (
 		<nav className='nav'>

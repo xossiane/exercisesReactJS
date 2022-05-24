@@ -10,8 +10,10 @@ import Exercise6 from './components/exercicio6'
 import Exercise7 from './components/exercicio7'
 import Exercise8 from './components/exercicio8'
 import Home from './components/home'
+import Menu from './components/Nav'
 
 function App() {
+	
 	return (
 		<>
 			<Nav />
