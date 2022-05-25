@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom'
 
 function AnimalsList2 () {
-    const animals = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse'];
+    const animals = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse','whale'];
     
     const listAnimals = animals.map((animal) => 
     <li>{animal}</li>

@@ -2,8 +2,9 @@ import './index.css'
 
 function CostumBtn(props){
 
+
 	function myOtherAlert(props){
-		alert("você clicou no botão: " + (props.className));
+		alert("você clicou no botão:" + (props.className));
 	}
 	
 	return <button className={props.className} onClick = {myOtherAlert}> Button {props.className}</button>
@@ -14,7 +15,9 @@ function CostumBtn(props){
 
 function Exercicio3() {
 	return (
+		
 	<>
+	<h1 className='title'>Exercício 3</h1>
 	<div className="Btn__container--ex3">
 	<CostumBtn className="1" />
 	<CostumBtn className="2" />

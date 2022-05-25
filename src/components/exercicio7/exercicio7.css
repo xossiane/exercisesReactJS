@@ -1,0 +1,16 @@
+.body__container--input{
+    display: flex;
+    margin: auto;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.body__container--title{
+    
+}
+.body__title--forms {
+    text-align: center;
+}

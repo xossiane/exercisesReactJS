@@ -1,29 +1,31 @@
-import {useState} from 'react'
+
+import { useForm } from 'react-hook-form'
+
 
 function Form (){
-    function CadastrarUsuario(e){
-        
-        e.preventDefault()
-        alert("Oi pessoa" + JSON.stringify({name} + {lastName}))
 
-    }
+    const {register, handleSubmit} = useForm();
 
-    const [name, setName] = useState()
-    const [lastName, setlastName] = useState()
+
+    
+
+    const CadastrarUsuario = (e) => {
+        alert('Bem vindo ' + (firstName)+ ' ' + (lastName));
+    };
+
 
 
     return (
-        <div>
-            <h1>Meu Cadastro:</h1>
-            <form onSubmit={CadastrarUsuario}>
+        <div className="body__container--input">
+            
+            <form onSubmit={handleSubmit(CadastrarUsuario)}>
                 <div>
-                    <label htmlFor="name">Nome:</label>
-                    <input type="text" id="name" name="name" placeholder="Digite o seu nome"
-                    onChange={(e) => setName(e.target.value)} />
+                    <label>Nome:</label>
+                    <input type="text" name = "firstName" id="firstName" {...register("firstName")} placeholder="Digite o seu nome"/>
                 </div>
                 <div>
-                    <label htmlFor="lastName">Sobrenome:</label>
-                    <input type="text" id="lastName" name="lastName" placeholder="Digite seu sobrenome" onChange={(e) => setlastName(e.target.value)} />
+                    <label>Sobrenome:</label>
+                    <input type="text" name= "lastName"  id="lastName" {...register("lastName")} placeholder="Digite seu sobrenome" />
                 </div>
                 <div>
                     <input type="submit" value="Diga oi pra mim!"/>

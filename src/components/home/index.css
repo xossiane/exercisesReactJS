@@ -1,3 +1,12 @@
 .title {
 	text-align: center;
+	
+}
+.letter {
+	justify-content: center;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	height: 800px;
+	width: 800px;
 }

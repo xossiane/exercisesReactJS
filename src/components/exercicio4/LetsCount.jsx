@@ -5,7 +5,7 @@ function LetsCount() {
 
     return (
         <div>
-            <p> Você clicou {count} vezes hein</p>
+            <p>Você clicou {count} vezes hein</p>
             <button onClick={() => Counting(count + 1)}> 
             Clica aqui ó
             </button>

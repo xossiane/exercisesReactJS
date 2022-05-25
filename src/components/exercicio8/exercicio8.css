@@ -1,0 +1,22 @@
+.header__conteudo--background {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+
+
+}
+
+.body__conteudo--animalname {
+    background-color: lightblue;
+}
+.body__conteudo--animalfact {
+    background-color: lightgrey;
+}
+
+.JokesForYou {
+    text-align: center;
+}

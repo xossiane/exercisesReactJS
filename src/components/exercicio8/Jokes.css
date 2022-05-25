@@ -1,0 +1,38 @@
+.jokeOne{
+    display: flex;
+    height:200px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.107);
+    border-radius:10px;
+    margin: 10px;
+    padding:10px;
+}
+
+.jokeTwo{
+    display: flex;
+    height:200px;
+    width:400px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.107);
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px;
+
+}
+
+.partOne{
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.partTwo{
+    text-align: center;
+}
+.container__jokes--background{
+    background-color: #E0F8DB;
+    display: flex;
+    justify-content: center;
+}
